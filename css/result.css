@@ -1,0 +1,51 @@
+#result{
+    background-color: #E7C6FF;
+    width: 80%;
+    text-align:center;  /*글자 중앙 정렬*/
+    border-radius:12px ;  /*둥글둥글*/
+    text-align: center;
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding-top: 50px;
+    padding-bottom:50px;
+    
+    border-top: 30px;
+    border-bottom: 30px;
+    
+}
+
+.resultName{
+    font-size: 40px;
+}
+
+
+
+.small{
+    width:250px;
+    margin:auto
+}
+
+button{
+    margin-top:20px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size:15px;
+}
+
+.made{
+    color:black;
+    background-color: #fcbf49;
+    font-size: 20px;
+    border:0px;
+    border-radius: 20px;
+}
+
+.made:focus, .made:hover{
+    background-color: black;
+    color:#fcbf49;
+}

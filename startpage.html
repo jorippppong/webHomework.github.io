@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <!--화면 크기를 줄여도 최적화 되게 보이게 해줌-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <!--bootstrap에서 사용할 수 있도록 불러오기-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+        crossorigin="anonymous">
+        <!--css 파일 불러오기-->
+        <link rel="stylesheet" href="css\default.css">
+        <link rel="stylesheet" href="css\main.css">
+        <link rel="stylesheet" href="css\qna.css">
+        <link rel="stylesheet" href="css\result.css">
+        <!--font 불러오기-->
+        <link href="https://fonts.googleapis.com/css?family=Do+Hyeon:400" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <section id="main" >
+                <h1>당신의 취향저격 K-컨텐츠는?</h1>
+                <br>
+                <div>
+                    <img src="image\Flag_of_South_Korea.svg.png" alt="main 이미지" class="img-fluid">
+                </div>
+                <p>
+                    <br>
+                    컨텐츠는 많고, 무엇부터 봐야 할 지 모르는 당신!<br>
+                    당신의 취향을 저격할 K-컨텐츠를 추천해 드립니다.<br>
+                    아래 버튼을 클릭하고 당신의 취향을 알아보세요.
+                </p>
+                <button type="button" class="made" onclick="js:begin()">시작하기</button>
+            </section>
+        </div>
+        
+        <section id="qna" style="display:none">
+            <div class="status">
+                <div class="statusBar">
+
+                </div>
+            </div>
+            <div class="qBox">
+
+            </div>
+            <div class="answerBox">
+
+            </div>
+        </section>
+
+        <section id="result" style="display:none">
+            <h1>당신의 결과는?</h1>
+            <div class="resultName">
+                
+            </div>
+            <div id="resultImg" class="small">
+                
+            </div>
+        
+            <button type="button" class="made" onclick="js:link()">즐기러 가기</button>
+        </section>
+        
+        <!--javascript 불러오기-->
+        <script src="js\data.js" charset="utf-8"></script>
+        <script src="js\start.js" charset="utf-8"></script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+#main{
+    background-color: #E7C6FF;
+    width: 80%;
+    text-align:center;  /*글자 중앙 정렬*/
+    border-radius:12px ;  /*둥글둥글*/
+    
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding-top: 50px;
+    padding-bottom:50px;
+    
+    border-top: 30px;
+    border-bottom: 30px;
+}
+
+button{
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size:15px;
+}
+
+p{
+    font-size:25px;
+}
